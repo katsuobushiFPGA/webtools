@@ -73,5 +73,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  server: {
+    port: process.env.NODE_ENV !== 'production' ? 8001 : process.env.PORT
+  },
 }
