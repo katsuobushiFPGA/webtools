@@ -11,6 +11,11 @@
       />
       <v-row>
         <v-col>
+          <v-slider v-model="previewPdf.page" hint="slide pdf page." :max="previewPdf.pageCount" :min="0" />
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
           <button type="button" :disabled="previewPdf.currentPage <= 1" @click="prev()">Prev</button>
         </v-col>
         <v-col>
