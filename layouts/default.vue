@@ -64,6 +64,11 @@ export default {
           to: '/'
         },
         {
+          icon: 'mdi-merge',
+          title: 'PDF merge',
+          to: '/merge-pdf'
+        },
+        {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
