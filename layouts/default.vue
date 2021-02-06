@@ -64,6 +64,11 @@ export default {
           to: '/'
         },
         {
+          icon: 'mdi-file-find',
+          title: 'PDF preview',
+          to: '/preview-pdf'
+        },
+        {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
