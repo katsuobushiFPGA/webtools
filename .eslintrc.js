@@ -14,7 +14,8 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        htmlWhitespaceSensitivity: 'ignore'
+        htmlWhitespaceSensitivity: 'ignore',
+        endOfLine: 'auto'
       }
     ],
     'vue/html-self-closing': [
