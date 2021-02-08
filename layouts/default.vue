@@ -69,6 +69,11 @@ export default {
           to: '/preview-pdf'
         },
         {
+          icon: 'mdi-calendar-today',
+          title: 'Holiday calendar',
+          to: '/holiday-calendar'
+        },
+        {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
