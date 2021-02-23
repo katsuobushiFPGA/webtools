@@ -1,5 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
-
+require('dotenv').config()
+const { E_STAT_APP_ID } = process.env
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -71,5 +72,8 @@ export default {
   build: {},
   server: {
     port: process.env.NODE_ENV !== 'production' ? 8001 : process.env.PORT
+  },
+  env: {
+    E_STAT_APP_ID
   }
 }

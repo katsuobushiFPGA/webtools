@@ -75,6 +75,11 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
+          title: 'e-stat chart',
+          to: '/stat-chart'
+        },
+        {
+          icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
         }
