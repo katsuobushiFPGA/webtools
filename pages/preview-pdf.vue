@@ -36,7 +36,7 @@ export default {
       pdf_url: null,
       previewPdf: {
         page: 1,
-        currentPage: 0,
+        currentPage: 1,
         pageCount: 0
       }
     }
@@ -46,6 +46,7 @@ export default {
       const file = e.target.files[0]
       this.pdf_file = file
       this.pdf_url = window.URL.createObjectURL(file)
+      this.previewPdf.page = 1
     },
     prev() {
       if (this.previewPdf.currentPage > 1) {
